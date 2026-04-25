@@ -1,0 +1,4 @@
+"""SCENet: Structured Concept-Embedded Network for interpretable tabular learning."""
+
+__all__ = ["__version__"]
+__version__ = "0.1.0"

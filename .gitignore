@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & outputs (keep raw data out of git)
+# Track the folders via .gitkeep, but ignore their contents.
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Optional local datasets folder (raw files)
+datasets/
+
+# Docs
+docs/
+
+# IDE
+.vscode/
